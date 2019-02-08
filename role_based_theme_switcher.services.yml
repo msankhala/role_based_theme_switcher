@@ -1,0 +1,5 @@
+services:
+  theme.negotiator.role_based_theme_switcher:
+    class: Drupal\role_based_theme_switcher\Theme\RoleNegotiator
+    tags:
+      - { name: theme_negotiator, priority: 10 }

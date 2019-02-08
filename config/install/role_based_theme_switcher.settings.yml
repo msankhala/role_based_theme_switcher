@@ -1,0 +1,10 @@
+roletheme:
+  anonymous:
+    id: bartik
+    weight: 0
+  authenticated:
+    id: bartik
+    weight: 1
+  administrator:
+    id: seven
+    weight: 2
